@@ -1,0 +1,24 @@
+
+Table: Post
+· ThreadId FK
+· ID PK
+· Author
+· Subject
+· Body
+· PostedDate  
+
+
+Table: Thread
+·ThreadID PK
+·ForumID FK
+·UUID
+·Author
+·Subject
+·Body
+·PostedDate
+
+Table: Forum
+·ForumID
+·ForumName
+·Description
+·ForumGroupName
